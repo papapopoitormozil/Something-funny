@@ -1,0 +1,41 @@
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.question-box {
+    padding: 20px;
+}
+
+.results {
+    padding: 20px;
+    display: none;
+}
+
+.bread {
+    height: 200px;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #0056b3;
+}
